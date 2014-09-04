@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+dl{
+	border: 1px solid red;
+	overflow:hidden;
+	/*overflow hidden is clearfix.
+	it reminds the <dl> to wrap around it's floated children*/
+}
+dt {
+	float: left;
+	clear: left;
+	width:8em;
+}
+
+dd {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color:#B70E6C;
+}
+
+h2{
+	color:#438528;
+}
